@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://mcfyf4ety25g"
+path="res://.godot/imported/Yume Nikki OST - Block World.mp3-d05755dede842072459e797a4744590b.mp3str"
+
+[deps]
+
+source_file="res://Yume Nikki OST - Block World.mp3"
+dest_files=["res://.godot/imported/Yume Nikki OST - Block World.mp3-d05755dede842072459e797a4744590b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
