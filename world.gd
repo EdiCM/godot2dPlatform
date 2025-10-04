@@ -16,7 +16,6 @@ func _ready():
 	$AudioStreamPlayer.play()
 	
 	if not next_level is PackedScene:
-		$AudioStreamPlayer.stop()
 		level_completed.next_level_button.text = "Victory Screen"
 		next_level = load("res://victory_screen.tscn")
 		
@@ -30,7 +29,7 @@ func _ready():
 	start_in.visible = false
 	start_level_msec = Time.get_ticks_msec()
 
-func _process(delta):
+func _process(_delta):
 	level_time = Time.get_ticks_msec() - start_level_msec
 	level_time_label.text = str(level_time / 1000.0)
 

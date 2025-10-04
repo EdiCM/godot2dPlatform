@@ -1,0 +1,47 @@
+[gd_scene load_steps=2 format=3 uid="uid://bdl2q10yqg3pa"]
+
+[ext_resource type="Script" uid="uid://cisn5pbcw4sdy" path="res://credits.gd" id="1_nm7lk"]
+
+[node name="credits" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_nm7lk")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 122.0
+offset_top = 9.0
+offset_right = 212.0
+offset_bottom = 153.0
+text = "Credits
+
+Game Design:
+Edith Cabrakl Medina
+
+Programming:
+Edith Cabrakl Medina
+
+Art & Assets:
+Edith Cabrakl Medina
+
+Music:
+Edith Cabrakl Medina
+
+Special Thanks To:
+Edith Cabrakl Medina"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 126.0
+offset_top = 158.0
+offset_right = 207.0
+offset_bottom = 170.0
+text = "Back to Main Menu"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

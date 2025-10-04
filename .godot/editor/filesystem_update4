@@ -1,3 +1,5 @@
+res://credits.gd
+res://credits.tscn
 res://start_menu.tscn
 res://hazard_area.tscn
 res://heart.tscn
@@ -9,3 +11,5 @@ res://level_tile_map.tscn
 res://level_two.tscn
 res://spikes.tscn
 res://victory_screen.tscn
+res://victory_screen.gd
+res://world.gd
