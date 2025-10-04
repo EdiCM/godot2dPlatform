@@ -14,7 +14,9 @@ var start_level_msec = 0.0
 
 func _ready():
 	$AudioStreamPlayer.play()
+	
 	if not next_level is PackedScene:
+		$AudioStreamPlayer.stop()
 		level_completed.next_level_button.text = "Victory Screen"
 		next_level = load("res://victory_screen.tscn")
 		
