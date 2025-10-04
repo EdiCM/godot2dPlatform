@@ -15,4 +15,4 @@ func _on_menu_button_pressed():
 
 func _on_credit_button_pressed():
 	# Esta función cambia la escena a la de los créditos
-	get_tree().change_scene_to_file("res://scenes/credits.tscn")
+	get_tree().change_scene_to_file("res://credits.tscn")
